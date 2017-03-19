@@ -1,0 +1,49 @@
+package Entity;
+/**
+ * 客户类
+ * @author Azure
+ *
+ */
+
+public class Accounts {
+	private String idCard;
+	private String userName;
+	private String password;
+	private double money;
+	//带参数的构造方法
+	public Accounts(String userName,String password,double money){
+		this.userName = userName;
+		this.password = password;
+		this.money = money;
+	}
+	//不带参数的构造方法
+	public Accounts(){
+		
+	}
+	public String getIdCard() {
+		return idCard;
+	}
+	public void setIdCard(String idCard) {
+		this.idCard = idCard;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public double getMoney() {
+		return money;
+	}
+	public void setMoney(double money) {
+		this.money = money;
+	}
+	
+	
+}
